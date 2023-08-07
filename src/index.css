@@ -1,13 +1,99 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  color: #fff;
+  font-family: "poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 1px;
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: #43352859;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #eee;
+}
+
+.admin{
+  text-align: center;
+  color: #0056b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: black;
+  font-family: "poppins";
+}
+.chat-messages{
+  background-color: black;
+  font-size: 18px;
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 20px;
+}
+div {
+  margin-bottom: 10px;
+}
+
+div {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input{
+  width: 70%;
+  margin-right: 20px;
+  outline: none;
+}
+
+.msg1{
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  /* background-color: #0056b3;
+  width: fit-content; */
+}
+.msg{
+  background-color: black;
+  /* width: fit-content;
+  background-color: #0056b3; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottom{
+  margin-top: auto;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.delete-icon{
+  color: red;
+}
+
+
